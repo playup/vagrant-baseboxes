@@ -1,0 +1,16 @@
+Use this to make base boxes for Vagrant.  Uses the veewee gem.
+
+
+Show baseboxes that could be built:
+
+  vagrant basebox list
+  
+Build a particular basebox:
+
+  vagrant basebox build <basebox-name>
+  
+To create the .box file:
+
+  vagrant basebox export <basebox-name>
+  
+Then upload the basebox somewhere good.
